@@ -1,10 +1,8 @@
 # Root level .gitignore for monorepo
 
-# Ignore nested .git directories (submodules or nested repos)
-# This prevents tracking sub-repositories' .git folders in the parent repo
-quizzam/.git/
-quizzy-front/.git/
-*/.git/
+# Note: quizzam and quizzy-front are now Git submodules
+# They are managed via .gitmodules and git submodule commands
+# No need to ignore their .git directories as they are proper submodules
 
 # Environment variables
 .env
