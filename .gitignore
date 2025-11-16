@@ -1,0 +1,64 @@
+# Root level .gitignore for monorepo
+
+# Ignore nested .git directories (submodules or nested repos)
+# This prevents tracking sub-repositories' .git folders in the parent repo
+quizzam/.git/
+quizzy-front/.git/
+*/.git/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+quizzam/.env
+quizzy-front/.env
+
+# Firebase credentials
+**/firebase*key*.json
+**/*firebase*key*.json
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Secrets and credentials
+**/secrets/
+**/*secret*
+**/*credential*
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Nx
+.nx/
+nx.json.bak
+
