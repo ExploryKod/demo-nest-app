@@ -1,6 +1,8 @@
 # QuizApp - Application de Quiz Interactive
 
-Application full-stack de quiz développée avec **NestJS** (backend) et **Angular** (frontend), démontrant des patterns d'architecture logicielle modernes incluant l'**Injection de Dépendances**, l'**Inversion de Contrôle**, le pattern **Ports & Adapters**, et le **CQRS**.
+Application full-stack de quiz développée avec **NestJS** (backend) et **Angular** (frontend). 
+
+Le projet nous a permis d'apprendre l'**Injection de Dépendances**, l'**Inversion de Contrôle**, le pattern **Ports & Adapters**, et le **CQRS**.
 
 ## 📌 Note Importante
 
@@ -669,8 +671,6 @@ MIT
 
 - [Guide de Test](./TESTING.md) - Instructions détaillées de test
 - [Guide de Sécurité](./SECURITY.md) - Bonnes pratiques de sécurité
-- [Configuration Git Imbriquée](./NESTED_GIT_SETUP.md) - Structure du dépôt
-
 ---
 
 **Développé avec ❤️ en utilisant NestJS et Angular**
