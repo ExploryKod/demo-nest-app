@@ -1,6 +1,8 @@
 [submodule "quizzam"]
 	path = quizzam
 	url = https://github.com/ExploryKod/quizzam.git
+	branch = main
 [submodule "quizzy-front"]
 	path = quizzy-front
 	url = https://github.com/ExploryKod/quizzy-front.git
+	branch = main
